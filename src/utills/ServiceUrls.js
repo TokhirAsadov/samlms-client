@@ -30,9 +30,7 @@ export const getToken = () => {
 
 // export const BASE_URL = "http://localhost:8081/api/v1/desktop";
 export const BASE_URL = "/api/v1/desktop"  ;
-// export const BASE_URL = "http://172.16.0.220:80/api/v1/desktop";
-//    export const BASE_URL = "http://attendance.kiut.uz/api/v1/desktop";
- //  export const BASE_URL_2="http://172.16.7.237:6060/api/v1/desktop"
+//    export const BASE_URL = "http://samlms.kiut.uz/api/v1/desktop";
 
 export const CURRENT_TIME ="http://worldtimeapi.org/api/ip";
 
