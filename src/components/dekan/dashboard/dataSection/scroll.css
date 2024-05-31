@@ -1,0 +1,13 @@
+.simplebar-track{
+    width: 15px!important;
+    border-radius: 12px;
+}
+
+.simplebar-track.simplebar-vertical.simplebar-hover{
+    background: #E9F3FF;
+}
+
+.simplebar-scrollbar::before{
+    width: 12px;
+    background: #43B5F4;
+}

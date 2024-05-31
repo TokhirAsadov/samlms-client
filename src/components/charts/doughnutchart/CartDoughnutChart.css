@@ -1,0 +1,102 @@
+.ExpandedCard {
+    position: absolute;
+    width: 60%;
+    height: calc(100vh - 60px);
+    z-index: 9;
+    left: 13rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    top: 60px;
+    right: -100px;
+}
+
+.ExpandedCard > span:nth-of-type(1) {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 0 0 15px white;
+}
+
+.ExpandedCard > span:nth-of-type(2) {
+    color: rgb(236, 236, 236);
+    font-size: 15px;
+}
+
+.chartContainer {
+    width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+    .ExpandedCard {
+        top: 2rem;
+        height: 45vh;
+        left: 6rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ExpandedCard {
+        top: 8rem;
+        height: 50%;
+        left: 25px;
+        width: 90% !important;
+    }
+}
+
+
+.KafedraExpandedCard {
+    position: absolute;
+    width: 600px;
+    min-height: 300px;
+    z-index: 100;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: space-around;*/
+    padding: 1rem;
+    top: 60px;
+    right: 50px;
+}
+
+.KafedraExpandedCard > span:nth-of-type(1) {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 0 0 15px white;
+}
+
+.KafedraExpandedCard > span:nth-of-type(2) {
+    color: rgb(236, 236, 236);
+    font-size: 15px;
+}
+
+
+
+
+@media screen and (min-width:576px)  and (max-width: 768px) {
+    .KafedraExpandedCard {
+        top: 1rem;
+        left: 15px;
+        width: 600px;
+    }
+}
+@media screen and (max-width:576px)  {
+    .KafedraExpandedCard {
+        width: 340px;
+    }
+    .leftbox{
+        left: 10px;
+    }
+.leftbox2{
+        left: -250px;
+    }
+}
+
+.bgcolor{
+    background-color: #43B5F4;
+}

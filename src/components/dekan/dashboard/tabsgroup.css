@@ -1,0 +1,37 @@
+.dekantabs{
+    width: 100%;
+}
+.dekantabs>.MuiTabs-root{
+    width: 100% ;
+    overflow: inherit;
+    background-color: #fff ;
+    border-radius: 10px ;
+    padding: 15px 10px;
+}
+.dekantabs>.MuiTabs-root>.MuiTabs-scroller>.MuiTabs-flexContainer{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.MuiTabScrollButton-root {
+    width: 20px !important;
+}
+
+.teacherfiletabs{
+    width: 100%;
+}
+.teacherfiletabs>.MuiTabs-root{
+    width: 100% ;
+    overflow: inherit;
+    border-radius: 10px ;
+    padding: 15px 0;
+}
+.teacherfiletabs>.MuiTabs-root>.MuiTabs-scroller>.MuiTabs-flexContainer{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.MuiTabScrollButton-root {
+    width: 20px !important;
+}
+
